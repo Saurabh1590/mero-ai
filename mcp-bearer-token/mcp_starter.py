@@ -49,7 +49,8 @@ def analyze_text_with_gemini(user_text: str):
 # --- MCP Server Setup ---
 mcp = FastMCP(
     "Mero AI Personality Matcher",
-    # The starter code's auth provider will automatically use the AUTH_TOKEN from the .env file
+    # The starter code's auth provider will automatically use the AUTH_TOKEN from the .env file 
+    # minor fix
 )
 
 # --- Tool: validate (Required by Puch) ---

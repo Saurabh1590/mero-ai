@@ -71,3 +71,4 @@ pip-delete-this-directory.txt
 
 # Vercel/Deployment
 .vercel/
+.vercel

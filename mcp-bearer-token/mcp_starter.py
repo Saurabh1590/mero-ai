@@ -50,7 +50,6 @@ def analyze_text_with_gemini(user_text: str):
 mcp = FastMCP(
     "Mero AI Personality Matcher",
     # The starter code's auth provider will automatically use the AUTH_TOKEN from the .env file 
-    # minor fix
 )
 
 # --- Tool: validate (Required by Puch) ---
@@ -109,3 +108,5 @@ async def mero_ai(user_text: str) -> str:
     response_message += "Share Mero AI with friends! #BuildWithPuch"
 
     return response_message
+
+app = mcp.app

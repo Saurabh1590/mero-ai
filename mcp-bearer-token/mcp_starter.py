@@ -109,4 +109,4 @@ async def mero_ai(user_text: str) -> str:
 
     return response_message
 
-app = mcp.app
+app = mcp
